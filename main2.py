@@ -1,20 +1,12 @@
 #!/usr/bin/env python
+'''
+Concept Map Generator.
+usage: python main2.py -f input_file -g
+Author: Pranav Khadpe
+Date: 06-04-2018
 
-"""
-A simple Python wrapper for the stanford IE binary that makes it easier to use it
-on UNIX/Windows systems.
-Note: The script does some minimal sanity checking of the input, but don't
-    expect it to cover all cases. After all, it is a just a wrapper.
-Example:
-    > echo "Barack Obama was born in Hawaii." > text.txt
-    > python main.py -f text.txt
-    > python main.py -f text.txt,text2.txt (for batch mode).
-    Should display
-    1.000: (Barack Obama; was; born)
-    1.000: (Barack Obama; was born in; Hawaii)
-Authors:    Philippe Remy       <github: philipperemy>
-Version:    2016-07-08
-"""
+Note: Parts of this code are lifted as is from those written by Philippe Remy.
+'''
 
 # Copyright (c) 2016, Philippe Remy <github: philipperemy>
 #
