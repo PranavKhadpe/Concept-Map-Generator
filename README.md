@@ -33,7 +33,7 @@ cp Concept-Map-Generator/{main2.py,conceptmap.py} Stanford-OpenIE-Python
 cd Stanford-OpenIE-Python
 echo Your Text > test.txt
 python conceptmap.py -i test.txt
-python main.py -f test.txt -g
+python main2.py -f test.txt -g
 ```
 Will generate a [GraphViz DOT](http://www.graphviz.org/) graph and its related PNG file in `/tmp/openie/`
 
