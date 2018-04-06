@@ -5,7 +5,7 @@ This work was done as part of a mini project for the course on Language Processi
 
 It makes use of the DBpedia Spotlight Web API to extract important concepts from a given text and then uses OpenIE to extract relations. Visualisation is done using GraphViz.
 
-This work uses the python wrapper for Stanford OpenIE writtent by [philipperemy](https://github.com/philipperemy/Stanford-OpenIE-Python).
+This work uses the python wrapper for Stanford OpenIE written by [philipperemy](https://github.com/philipperemy/Stanford-OpenIE-Python).
 
 ## Usage
 
