@@ -3,6 +3,12 @@ Term Project for Language Processing for E-Learning
 
 This work was done as part of a mini project for the course on Language Processing for E-Learning under the guidance of Professor Plaban Bhowmick.
 
+Team Members:
+Pranav Khadpe
+Dileep Shukla
+Shivam Choudhary
+Sudanshu Singh
+
 It makes use of the DBpedia Spotlight Web API to extract important concepts from a given text and then uses OpenIE to extract relations. Visualisation is done using GraphViz.
 
 This work uses the python wrapper for Stanford OpenIE written by [philipperemy](https://github.com/philipperemy/Stanford-OpenIE-Python).
